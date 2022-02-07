@@ -1,0 +1,23 @@
+import { NavLink } from "react-router-dom";
+
+const Pagenotfound = () => {
+    return (
+        <div>
+            <div id="notfound">
+                <div className="notfound">
+                    <div className="notfound-404">
+                        <h1>404</h1>
+                    </div>
+                    <h2>WE ARE SORRY, PAGE NOT FOUND!</h2>
+                    <p>
+                        THE PAGE YOU ARE LOOKING FOR MIGHT HAVE BEEN REMOVED HAD ITS NAME
+                        CHANGED OR IS TEMPORARILY UNAVAILABLE.
+                    </p>
+                    <NavLink to="/">back to homepage</NavLink>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Pagenotfound;
